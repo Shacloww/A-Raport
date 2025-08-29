@@ -1,0 +1,3 @@
+node_modules/
+reports/*.md
+# keep json reports in repo by default, but ignore node_modules

@@ -1,0 +1,30 @@
+body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+.container { padding: 16px; }
+.pane { display: flex; gap: 16px; }
+.left { width: 320px; border-right: 1px solid #ddd; padding-right: 12px; }
+.right { flex: 1; padding-left: 12px; }
+ul { list-style: none; padding: 0; }
+li { margin: 8px 0; }
+.meta { color: #666; font-size: 0.9em; }
+button { margin-right: 8px; }
+input, textarea { width: 100%; box-sizing: border-box; margin-top: 4px; }
+pre { background: #fafafa; padding: 8px; border: 1px solid #eee; }
+
+.report-form { display: flex; flex-direction: column; gap: 10px; }
+.report-form .row { display: flex; flex-direction: column; }
+.report-form .numeric-row { display: flex; gap: 12px; flex-wrap: wrap; }
+.report-form fieldset { border: 1px solid #eee; padding: 8px; }
+.material, .step { display: flex; gap: 8px; align-items: center; margin-bottom: 6px; }
+.material input:first-child { flex: 1; }
+.material input:nth-child(2) { width: 90px; }
+.step input:first-child { flex: 1; }
+.controls { margin-bottom: 12px; }
+
+.step-block { border: 1px solid #eee; padding: 8px; margin-bottom: 10px; border-radius: 4px; background: #fff; }
+.step-block h4 { margin: 0 0 8px 0; }
+.step-block .material { gap: 6px; }
+
+.time-row { display: flex; gap: 8px; align-items: center; }
+.time-row input[list] { width: 56px; }
+.summary { margin-left: 8px; color: #333; font-weight: 600; }
+.duration-inline { display: flex; align-items: center; margin-left: 8px; gap: 6px; }
